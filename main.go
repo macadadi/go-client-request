@@ -64,7 +64,6 @@ func GetAirtime(w http.ResponseWriter, r *http.Request){
 	if err != nil{
 		fmt.Print(err)
 	}
-
 		values := url.Values{}
 		values.Add("username","sandbox")
 		values.Add("recipients",string(jsonresp))
